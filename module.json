@@ -1,0 +1,36 @@
+{
+  "id": "personajes-testeo",
+  "title": "Cenizas personajes testeo",
+  "version": "1.0.1",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "flags": {
+    "canUpload": true
+  },
+  "authors": [
+    {
+      "name": "jihs2000",
+      "discord": "jihs1",
+      "flags": {}
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/jihs2000/personajes-testeo/main/module.json",
+  "download": "https://github.com/jihs2000/personajes-testeo/releases/latest/download/personajes-testeo.zip",
+  "packs": [
+    {
+      "name": "personajes",
+      "label": "personajes",
+      "path": "packs/personajes",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e",
+      "flags": {}
+    }
+  ],
+  "description": ""
+}
